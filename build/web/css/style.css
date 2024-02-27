@@ -1,0 +1,182 @@
+/*
+** Style Simple Ecommerce Theme for Bootstrap 4
+** Created by T-PHP https://t-php.fr/43-theme-ecommerce-bootstrap-4.html
+*/
+.register-photo {
+  background:#f1f7fc;
+  padding:80px 0;
+  
+}
+
+.register-photo .image-holder {
+    border-radius: 5px;
+  display:table-cell;
+  width:auto;
+  background:url(../img/login_background.jpg);
+  background-size:cover;
+}
+
+.register-photo .image-holder1 {
+    border-radius: 5px;
+  display:table-cell;
+  width:auto;
+  
+  background-size:cover;
+}
+.register-photo form{
+    border-radius: 5px;
+}
+.register-photo .form-container {
+  display:table;
+  max-width:900px;
+  width:90%;
+  margin:0 auto;
+  box-shadow:1px 1px 5px rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+
+.register-photo form {
+  display:table-cell;
+  width:400px;
+  background-color:#ffffff;
+  padding:40px 60px;
+  color:#505e6c;
+}
+
+@media (max-width:991px) {
+  .register-photo form {
+    padding:40px;
+  }
+}
+
+.register-photo form h2 {
+  font-size:24px;
+  line-height:1.5;
+  margin-bottom:30px;
+}
+
+.register-photo form .form-control {
+  background:#f7f9fc;
+  border:none;
+  border-bottom:1px solid #dfe7f1;
+  border-radius:0;
+  box-shadow:none;
+  outline:none;
+  color:inherit;
+  text-indent:6px;
+  height:40px;
+}
+
+.register-photo form .form-check {
+  font-size:13px;
+  line-height:20px;
+}
+
+.register-photo form .btn-primary {
+  background:#f4476b;
+  border:none;
+  border-radius:4px;
+  padding:11px;
+  box-shadow:none;
+  margin-top:35px;
+  text-shadow:none;
+  outline:none !important;
+}
+
+.register-photo form .btn-primary:hover, .register-photo form .btn-primary:active {
+  background:#eb3b60;
+}
+
+.register-photo form .btn-primary:active {
+  transform:translateY(1px);
+}
+
+.register-photo form .already {
+  display:block;
+  text-align:center;
+  font-size:12px;
+  color:#6f7a85;
+  opacity:0.9;
+  text-decoration:none;
+}
+
+
+
+.bloc_left_price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+}
+.navbar-brand{
+    width: 50px;
+}
+.category_block li:hover {
+    background-color: #007bff;
+}
+.category_block li:hover a {
+    color: #ffffff;
+}
+.category_block li a {
+    color: #343a40;
+}
+.add_to_cart_block .price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 0;
+}
+.add_to_cart_block .price_discounted {
+    color: #343a40;
+    text-align: center;
+    text-decoration: line-through;
+    font-size: 140%;
+}
+.product_rassurance {
+    padding: 10px;
+    margin-top: 15px;
+    background: #ffffff;
+    border: 1px solid #6c757d;
+    color: #6c757d;
+}
+.product_rassurance .list-inline {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.product_rassurance .list-inline li:hover {
+    color: #343a40;
+}
+.reviews_product .fa-star {
+    color: gold;
+}
+.pagination {
+    margin-top: 20px;
+}
+footer {
+    background: #343a40;
+    padding: 40px;
+    margin-top: 20px;
+}
+footer a {
+    color: #f8f9fa!important
+}
+.bgc{
+    background-image: url(image/Clothes+and+shoes-74_banner.jpg);
+    /*background-image: url("https://envato-shoebox-0.imgix.net/a553/ba21-ce80-45ee-82d4-120907cdb414/Clothes+and+shoes-74_banner.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=1600&s=a9cc1545e602fe3d3e6c9faed39f0a84");*/
+}
+.show_txt{
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+a .active{
+    color: white;
+}
+
+.list-group-item:hover{
+    background-color: gray;
+}
